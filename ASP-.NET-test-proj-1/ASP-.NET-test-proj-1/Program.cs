@@ -1,7 +1,22 @@
+using ASP_.NET_test_proj_1.Data;
+using ASP_.NET_test_proj_1.Data.Interfaces;
+using ASP_.NET_test_proj_1.Data.Repository;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add Repositories
+builder.Services.AddScoped<IUserAccountRepository, UserAccountRepository>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+
+// Add DbContext
+builder.Services.AddDbContext<AccountDBContext>(options =>
+{
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 var app = builder.Build();
 

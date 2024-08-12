@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Projects\C#\ASP-.NET-test-proj-1\ASP-.NET-test-proj-1\ASP-.NET-test-proj-1
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Projects/C\#/ASP-.NET-test-proj-1/ASP-.NET-test-proj-1/ASP-.NET-test-proj-1/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/C\#/ASP-.NET-test-proj-1/ASP-.NET-test-proj-1/ASP-.NET-test-proj-1/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Projects/C\#/ASP-.NET-test-proj-1/ASP-.NET-test-proj-1/ASP-.NET-test-proj-1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
