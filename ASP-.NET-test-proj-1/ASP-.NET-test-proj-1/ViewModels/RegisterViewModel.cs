@@ -5,7 +5,7 @@ namespace ASP_.NET_test_proj_1.ViewModels
     public class RegisterViewModel
     {
         [Required(ErrorMessage = "Username is required")]
-        public string Username { get; set; }
+        public string Login { get; set; }
 
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Invalid Email Address")]

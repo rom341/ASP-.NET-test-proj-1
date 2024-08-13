@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.Design": "8.0.7",
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.7"
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.7",
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.7"
         },
         "runtime": {
           "ASP-.NET-test-proj-1.dll": {}
@@ -331,6 +332,11 @@
             "assemblyVersion": "8.0.7.0",
             "fileVersion": "8.0.724.31404"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/8.0.7": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "8.0.7"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
@@ -743,6 +749,13 @@
       "sha512": "sha512-pqjQey+EEmsLwTv4vGeSGFw4o6nGLFdEM3ii2FCjfb0YZd3+tqX4O5jNZE/2+Y9rN4QQcbsb/8Cf6NIoyuKZng==",
       "path": "microsoft.entityframeworkcore.sqlite.core/8.0.7",
       "hashPath": "microsoft.entityframeworkcore.sqlite.core.8.0.7.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i85BNsjYGjAkvvga9uALKREHq/hsp/y7QOGuliczDSnUN6YIQXgx989XBg8iSkb5tZJqU/NLev1mU4XmirAvOw==",
+      "path": "microsoft.entityframeworkcore.tools/8.0.7",
+      "hashPath": "microsoft.entityframeworkcore.tools.8.0.7.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",

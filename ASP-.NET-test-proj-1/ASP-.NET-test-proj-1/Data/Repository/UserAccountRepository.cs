@@ -34,6 +34,11 @@ namespace ASP_.NET_test_proj_1.Data.Repository
             return dbContext.Users.FirstAsync(user => user.ID == id);
         }
 
+        public Task<UserAccount> GetByLoginAsync(string login)
+        {
+            return dbContext.Users.FirstAsync(user => user.Login == login);
+        }
+
         public bool Save()
         {
             return dbContext.SaveChanges() > 0;
