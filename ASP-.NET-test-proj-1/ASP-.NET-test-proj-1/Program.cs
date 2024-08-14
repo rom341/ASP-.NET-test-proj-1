@@ -1,6 +1,7 @@
 using ASP_.NET_test_proj_1.Data;
 using ASP_.NET_test_proj_1.Data.Interfaces;
 using ASP_.NET_test_proj_1.Data.Repository;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,7 +19,19 @@ builder.Services.AddDbContext<AccountDBContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+// Add Authentication
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.Cookie.Name = "login_cookie";
+        options.LoginPath = "/Account/Login";
+        //options.LogoutPath = "/Account/Logout";
+    });
+
 var app = builder.Build();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

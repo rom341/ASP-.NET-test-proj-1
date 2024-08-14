@@ -1,4 +1,4 @@
-﻿@model ASP_.NET_test_proj_1.ViewModels.LoginViewModel
+﻿@model ASP_.NET_test_proj_1.ViewModels.Account.LoginViewModel
 
 <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
@@ -13,10 +13,6 @@
                 <label asp-for="Password"></label>
                 <input asp-for="Password" type="password" class="form-control" />
                 <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <input asp-for="RememberMe" type="checkbox" class="form-check-input" />
-                <label asp-for="RememberMe" class="form-check-label"></label>
             </div>
             <button type="submit" class="btn btn-primary btn-block">Login</button>
         </form>

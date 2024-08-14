@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ASP_.NET_test_proj_1.ViewModels
+namespace ASP_.NET_test_proj_1.ViewModels.Account
 {
     public class RegisterViewModel
     {

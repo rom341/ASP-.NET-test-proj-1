@@ -12,42 +12,49 @@ namespace ASP_.NET_test_proj_1.Data.Repository
         {
             this.dbContext = dbContext;
         }
-        public bool Add(UserAccount userAccount)
+
+        public async Task<bool> Add(UserAccount userAccount)
         {
-            dbContext.Add(userAccount);
-            return Save();
+            await dbContext.AddAsync(userAccount);
+            return await Save();
         }
 
-        public bool DeleteAsync(int id)
+        public async Task<bool> DeleteAsync(int id)
         {
-            dbContext.Remove(id);
-            return Save();
+            var userAccount = await GetByIdAsync(id);
+            if (userAccount == null) return false;
+
+            dbContext.Remove(userAccount);
+            return await Save();
         }
 
-        public Task<List<UserAccount>> GetAllAsync()
+        public async Task<List<UserAccount>> GetAllAsync()
         {
-            return dbContext.Users.ToListAsync();
+            return await dbContext.Users.ToListAsync();
         }
 
-        public Task<UserAccount> GetByIdAsync(int id)
+        public async Task<UserAccount?> GetByIdAsync(int id)
         {
-            return dbContext.Users.FirstAsync(user => user.ID == id);
+            return await dbContext.Users.FirstOrDefaultAsync(user => user.ID == id);
         }
 
-        public Task<UserAccount> GetByLoginAsync(string login)
+        public async Task<UserAccount?> GetByLoginAsync(string login)
         {
-            return dbContext.Users.FirstAsync(user => user.Login == login);
+            return await dbContext.Users.FirstOrDefaultAsync(user => user.Login == login);
         }
 
-        public bool Save()
+        public async Task<bool> Save()
         {
-            return dbContext.SaveChanges() > 0;
+            return await dbContext.SaveChangesAsync() > 0;
         }
 
-        public bool UpdateAsync(UserAccount userAccount)
+        public async Task<bool> UpdateAsync(UserAccount userAccount)
         {
+            var existingUserAccount = await GetByIdAsync(userAccount.ID);
+            if (existingUserAccount == null) return false;
+
             dbContext.Update(userAccount);
-            return Save();
+            return await Save();
         }
     }
 }

@@ -7,9 +7,9 @@ namespace ASP_.NET_test_proj_1.Data.Interfaces
         Task<UserAccount> GetByIdAsync(int id);
         Task<List<UserAccount>> GetAllAsync();
         Task<UserAccount> GetByLoginAsync(string login);
-        bool Add(UserAccount userAccount);
-        bool UpdateAsync(UserAccount userAccount);
-        bool DeleteAsync(int id);
-        bool Save();
+        Task<bool> Add(UserAccount userAccount);
+        Task<bool> UpdateAsync(UserAccount userAccount);
+        Task<bool> DeleteAsync(int id);
+        Task<bool> Save();
     }
 }

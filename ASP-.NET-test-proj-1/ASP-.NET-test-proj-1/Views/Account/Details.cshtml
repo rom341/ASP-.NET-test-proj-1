@@ -1,0 +1,32 @@
+﻿@model ASP_.NET_test_proj_1.ViewModels.Account.DetailsViewModel
+<div class="container mt-4">
+    <div class="card p-4 shadow">
+        <h3 class="text-center">User Details</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <dl class="row">
+                    <dt class="col-sm-4">ID</dt>
+                    <dd class="col-sm-8">@Model.userAccount.ID</dd>
+
+                    <dt class="col-sm-4">First Name</dt>
+                    <dd class="col-sm-8">@Model.userAccount.FirstName</dd>
+
+                    <dt class="col-sm-4">Last Name</dt>
+                    <dd class="col-sm-8">@Model.userAccount.LastName</dd>
+
+                    <dt class="col-sm-4">Login</dt>
+                    <dd class="col-sm-8">@Model.userAccount.Login</dd>
+                    
+                    <dt class="col-sm-4">Password</dt>
+                    <dd class="col-sm-8">@Model.userAccount.Password</dd>
+
+                    <dt class="col-sm-4">Email</dt>
+                    <dd class="col-sm-8">@Model.userAccount.Email</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Home</a>
+        </div>
+    </div>
+</div>

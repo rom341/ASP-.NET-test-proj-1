@@ -1,8 +1,11 @@
 ﻿using ASP_.NET_test_proj_1.Data.Interfaces;
 using ASP_.NET_test_proj_1.Models;
-using ASP_.NET_test_proj_1.ViewModels;
+using ASP_.NET_test_proj_1.ViewModels.Account;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace ASP_.NET_test_proj_1.Controllers
 {
@@ -15,17 +18,23 @@ namespace ASP_.NET_test_proj_1.Controllers
             this.userAccountRepository = userAccountRepository;
         }
         // GET: AccountController
-        public ActionResult Index()
+        public async Task<ActionResult> Index()
         {
-            var accounts = userAccountRepository.GetAllAsync();
-            return View(accounts);
+            var accounts = await userAccountRepository.GetAllAsync();
+            var vm = new IndexViewModel(accounts);
+            return View(vm);
         }
 
         // GET: AccountController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(int id)
         {
-            var account = userAccountRepository.GetByIdAsync(id);
-            return View(account);
+            var foundAccount = await userAccountRepository.GetByIdAsync(id);
+            if (foundAccount == null)
+            {
+                return NotFound();
+            }
+            var vm = new DetailsViewModel(foundAccount);
+            return View(vm);
         }
 
         // GET: /Account/Login
@@ -37,23 +46,45 @@ namespace ASP_.NET_test_proj_1.Controllers
 
         // POST: /Account/Login when button pressed
         [HttpPost]
-        public IActionResult Login(LoginViewModel model)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var foundUser = userAccountRepository.GetByLoginAsync(model.Login);
-                if (foundUser.IsCompletedSuccessfully && foundUser.Result.Password == model.Password)
-                {                    
-                    return RedirectToAction("Index", "Home");
+                var foundUser = await userAccountRepository.GetByLoginAsync(model.Login);
+                if (foundUser != null && foundUser.Password == model.Password)
+                {
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, foundUser.Login),
+                        new Claim(ClaimTypes.Email, foundUser.Email ?? string.Empty)
+                    };
+
+                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                    var authProperties = new AuthenticationProperties
+                    {
+                        IsPersistent = model.RememberMe
+                    };
+
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+
+                    return RedirectToAction("Login", "Register");
                 }
                 else
                 {
                     ModelState.AddModelError("Login", "Login failed");
                 }
-                return RedirectToAction("Index", "Home");
             }
 
             return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login", "Account");
         }
 
         // GET: /Account/Register
