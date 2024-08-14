@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\data\\interfaces\\iuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|solutionrelative:asp-.net-test-proj-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45626F50-559D-4703-B8E4-7443FFD4E64B}|ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1.csproj|d:\\projects\\c#\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\asp-.net-test-proj-1\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,24 +54,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASP-.NET-test-proj-1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T07:54:41.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\Models\\Client.cs",
+              "ToolTip": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Models\\Client.cs",
+              "RelativeToolTip": "ASP-.NET-test-proj-1\\Models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:00:52.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Program.cs",
               "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\Program.cs",
               "ToolTip": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Program.cs",
               "RelativeToolTip": "ASP-.NET-test-proj-1\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBEAAAAEAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwBEAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T07:57:16.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T07:57:16.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserAccount.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Models\\UserAccount.cs",
               "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\Models\\UserAccount.cs",
@@ -71,12 +103,11 @@
               "RelativeToolTip": "ASP-.NET-test-proj-1\\Models\\UserAccount.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAUwAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T07:51:57.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T07:51:57.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UserAccountRepository.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Data\\Repository\\UserAccountRepository.cs",
               "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\Data\\Repository\\UserAccountRepository.cs",
@@ -84,12 +115,11 @@
               "RelativeToolTip": "ASP-.NET-test-proj-1\\Data\\Repository\\UserAccountRepository.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAkwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T07:47:55.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T07:47:55.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "IUserAccountRepository.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Data\\Interfaces\\IUserAccountRepository.cs",
               "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\Data\\Interfaces\\IUserAccountRepository.cs",
@@ -97,8 +127,7 @@
               "RelativeToolTip": "ASP-.NET-test-proj-1\\Data\\Interfaces\\IUserAccountRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAiwAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T07:47:30.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T07:47:30.417Z"
             },
             {
               "$type": "Document",
@@ -108,27 +137,27 @@
               "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\Views\\Account\\Login.cshtml",
               "ToolTip": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "ASP-.NET-test-proj-1\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-12T18:57:54.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\Views\\Account\\Register.cshtml",
               "ToolTip": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "ASP-.NET-test-proj-1\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-12T18:54:58.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\ViewModels\\LoginViewModel.cs",
@@ -136,12 +165,11 @@
               "RelativeToolTip": "ASP-.NET-test-proj-1\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAuwAQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T18:53:11.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T18:53:11.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\ViewModels\\RegisterViewModel.cs",
@@ -149,18 +177,17 @@
               "RelativeToolTip": "ASP-.NET-test-proj-1\\ViewModels\\RegisterViewModel.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T18:52:46.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T18:52:46.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ASP-.NET-test-proj-1\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\Projects\\C#\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\ASP-.NET-test-proj-1\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ASP-.NET-test-proj-1\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAqwDIAAABDAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAqwDUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T15:19:00.724Z",
               "EditorCaption": ""

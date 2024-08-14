@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SQLitePCL;
+using System.ComponentModel.DataAnnotations;
 
 namespace ASP_.NET_test_proj_1.Models
 {
